@@ -1,6 +1,6 @@
 module "network" {
-  source  = "app.terraform.io/dbacme/network/google"
-  version = "3.4.0"
+  source  = "https://app.terraform.io/app/dbacme/registry/modules/private/dbacme/network/google/4.0.0"
+  version = "4.0.0"
   # insert required variables here
 }
     network_name = "garav-network"
@@ -11,4 +11,4 @@ module "network" {
     subnet_region = var.region
 
   }
-    ]
+  
