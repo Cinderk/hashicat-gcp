@@ -1,5 +1,5 @@
 module "network" {
-  source  = "https://app.terraform.io/app/dbacme/registry/modules/private/dbacme/network/google/4.0.0"
+  source  = "app.terraform.io/dbacme/network/google"
   version = "4.0.0"
   # insert required variables here
 }
