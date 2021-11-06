@@ -1,5 +1,5 @@
 module "network" {
-  source  = "app.terraform.io/dbacme/network/google"
+  source = "app.terraform.io/dbacme/network/google"
   version = "3.4.0"
   network_name = "gaurav-network"
             sbunets = [
