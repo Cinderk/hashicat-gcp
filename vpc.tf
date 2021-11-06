@@ -1,8 +1,7 @@
-module "network_subnets" 
-{
-  source  = "app.terraform.io/dbacme/network/google//modules/subnets"
+module "network" {
+  source  = "terraform-google-modules/network/google"
   version = "3.4.0"
-  # insert required variables here
+  # insert the 3 required variables here
 }
 network_name = "garuav-network"
 project_id = "var.project"
