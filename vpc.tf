@@ -1,4 +1,5 @@
-module "network_subnets" {
+module "network_subnets" 
+{
   source  = "app.terraform.io/dbacme/network/google//modules/subnets"
   version = "3.4.0"
   # insert required variables here
