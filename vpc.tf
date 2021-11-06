@@ -1,7 +1,8 @@
 module "network" {
-  source  = "app.terraform.io/dbacme/network/google"
+  source  = "terraform-google-modules/network/google"
   version = "3.4.0"
-  network_name = "gaurav-network"
+      network_name = "gaurav1-network"
+      project_id = var.project
             sbunets = [
       {
           subnet_name = "gaurav-subnet"
