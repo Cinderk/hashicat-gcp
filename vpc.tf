@@ -3,8 +3,6 @@ module "network_subnets" {
   version = "4.0.0"
   # insert required variables here
 }
-network_name = "garuav-network"
-project_id = "var.project"
 subnets = [
   {
     subnet_name   = "gaurav-subnet"
